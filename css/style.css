@@ -1,0 +1,132 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+}
+ /*Nav*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.3125rem;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 1;
+}
+
+nav .logo {
+    height: 3.125rem;
+    padding: 0.625rem;
+}
+
+nav .links a {
+    padding: 10px;
+}
+
+/*Mission*/
+main {
+    position: relative;
+    top: 3.126rem;
+    padding: 0 35px;
+}
+
+#mission {
+    background-image: url(../Images/img-mission-background.jpg);
+    height: 700px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission .content {
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 1;
+}
+
+/*Month*/
+
+#monthgrande {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#month {
+    padding: 4.375rem;
+    width: 62.5rem;
+    background-color: black;
+}
+
+#images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#images .image img{
+    height: 12.5rem;
+    width: 18.75rem;
+    margin: 0 1rem;
+}
+
+#images .image h4 {
+    margin-top: 0.625rem;
+}
+
+/*Locations*/
+
+#locations {
+    width: auto;
+    background-image: url(../Images/img-locations-background.jpg);
+    background-position: 80% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#locations .locationssmall {
+    height: 31.25rem; 
+}
+
+.locationssmall h2 {
+    padding-top: 6.25rem;
+}
+#locations .citybig {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.9375rem 2.5rem;
+}
+#locations .citys {
+    background-color: black;
+    width: 18.75rem;
+    opacity: 1;
+    margin: 0 0.1rem;
+}
+/*Contact*/
+
+#contact {
+    height: 12.5rem;
+}
+/*Footer*/
+
+#footer {
+    text-align: left;
+    margin-left: 1.25rem;
+}

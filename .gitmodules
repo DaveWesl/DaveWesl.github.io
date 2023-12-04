@@ -1,3 +1,8 @@
 [submodule "Portfolio"]
+<<<<<<< HEAD
     path = Portfolio
     url = https://github.com/davewesl/Portfolio.git
+=======
+	path = Portfolio
+	url = https://github.com/davewesl/Portfolio.git
+>>>>>>> f7f30ed0cdd794171a7b6f52633f65922907406a

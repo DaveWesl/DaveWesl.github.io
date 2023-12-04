@@ -1,8 +1,25 @@
 [submodule "Portfolio"]
-<<<<<<< HEAD
     path = Portfolio
     url = https://github.com/davewesl/Portfolio.git
-=======
-	path = Portfolio
-	url = https://github.com/davewesl/Portfolio.git
->>>>>>> f7f30ed0cdd794171a7b6f52633f65922907406a
+
+[submodule "Dasmoto-site"]
+    path = Dasmoto-site
+    url = https://github.com/DaveWesl/Portfolio
+
+[submodule "Excursion"]
+    path = Excursion
+    url = https://github.com/DaveWesl/Excursion-2
+
+[submodule "Tea-Cozy"]
+    path = Tea-Cozy
+    url = https://github.com/DaveWesl/Tea-Cozy
+
+[submodule "bmi-calculator"]
+    path = bmi-calculator
+    url = https://github.com/DaveWesl/bmi-calculator
+
+[submodule "colmar-academy"]
+    path = colmar-academy
+    url = https://github.com/DaveWesl/colmar-acadamy
+
+

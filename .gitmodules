@@ -18,6 +18,6 @@
     path = bmi-calculator
     url = https://github.com/DaveWesl/bmi-calculator
 
-[submodule "colmar-academy"]
-    path = colmar-academy
+[submodule "colmar-acadamy"]
+    path = colmar-acadamy
     url = https://github.com/DaveWesl/colmar-acadamy

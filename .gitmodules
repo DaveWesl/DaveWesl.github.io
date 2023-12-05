@@ -21,7 +21,3 @@
 [submodule "colmar-academy"]
     path = colmar-academy
     url = https://github.com/DaveWesl/colmar-acadamy
-
-[submodule "advice-generator"]
-    path = advice-generator
-    url = https://github.com/DaveWesl/advice-generator

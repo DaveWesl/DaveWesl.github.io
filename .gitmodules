@@ -26,3 +26,8 @@
 [submodule "advice-generator"]
     path = advice-generator
     url = https://github.com/DaveWesl/advice-generator
+
+[submodule "connect-four-game"]
+    path = connect-four-game
+    url = https://github.com/DaveWesl/connect-four-game
+    

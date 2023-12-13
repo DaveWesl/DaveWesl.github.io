@@ -4,7 +4,7 @@
 
 [submodule "Dasmoto-site"]
     path = Dasmoto-site
-    url = https://github.com/DaveWesl/Portfolio
+    url = https://github.com/DaveWesl/Dasmoto-site
 
 [submodule "Excursion"]
     path = Excursion

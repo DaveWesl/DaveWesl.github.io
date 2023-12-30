@@ -33,5 +33,5 @@
 
 [submodule "audiophile-ecommerce-website"]
     path = audiophile-ecommerce-website
-    url = https://github.com/DaveWesl/audiophile-ecommerce-website
+    url = https://github.com/DaveWesl/audiophile-ecommerce-website/tree/master/src
     

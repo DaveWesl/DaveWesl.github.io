@@ -22,7 +22,6 @@
     path = colmar-acadamy
     url = https://github.com/DaveWesl/colmar-acadamy
 
-
 [submodule "advice-generator"]
     path = advice-generator
     url = https://github.com/DaveWesl/advice-generator
@@ -34,4 +33,8 @@
 [submodule "audiophile-ecommerce-website"]
     path = audiophile-ecommerce-website
     url = https://github.com/DaveWesl/audiophile-ecommerce-website
+    
+[submodule "entertainment-web-app"]
+path = entertainment-web-app
+url = https://github.com/DaveWesl/entertainment-web-app
     

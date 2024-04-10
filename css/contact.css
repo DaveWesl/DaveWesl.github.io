@@ -1,0 +1,132 @@
+#contact {
+  background-color: rgb(164, 202, 218, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 6rem 10rem 6rem;
+}
+
+#contact h1 {
+  margin: 0;
+}
+
+.contact-left {
+  margin-right: 100px;
+  width: 40%;
+}
+
+.contact-right {
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+input,
+textarea {
+  color: #3b4c4f;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  z-index: 4;
+  transition: transform 0.3s ease;
+}
+
+.contact-button {
+  background-color: rgb(93,135,138);
+  margin-top: 0.5rem;
+  box-shadow: 0rem 0rem 0rem;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  label {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 1.3rem;
+  }
+
+  .contact-left {
+    margin-right: 100px;
+    width: 50%;
+  }
+
+  .contact-right {
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  #contact {
+    background-color: rgb(164, 202, 218, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+  }
+
+  .contact-left {
+    margin: 0;
+    text-align: center;
+    width: auto;
+    margin-bottom: 5%;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+
+  label {
+    display: block;
+    margin-top: auto;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  label {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 1.5rem;
+  }
+}

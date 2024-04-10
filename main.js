@@ -71,6 +71,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  var reloadLink = document.getElementById('reload-link');
+  reloadLink.addEventListener('click', function(event) {
+      event.preventDefault(); // Prevents the default link behavior
+      location.reload(); // Reloads the page
+  });
+});
+
 //----------------------------------------------------------------
 //mySkills animation
 
@@ -88,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   var observer = new IntersectionObserver(handleIntersection, {
-    threshold: 0.5,
+    threshold: 0.2,
   });
 
   observer.observe(mySkillsSection);
@@ -110,17 +118,28 @@ function closePopup() {
 /*-------------------------------------------------*/
 /*typed name*/
 
-const typedText = "I'm David Wesle.";
-const nameElement = document.getElementById("name");
+const typedText1 = "Nice to meet you!";
+    const typedText2 = "I'm David Wesle.";
+    const line1Element = document.getElementById("text-line1");
+    const line2Element = document.getElementById("text-line2");
+    let index1 = 0;
+    let index2 = 0;
 
-function typeWriter(text, index) {
-  if (index < text.length) {
-    nameElement.textContent += text.charAt(index);
-    index++;
-    setTimeout(() => {
-      typeWriter(text, index);
-    }, 200); // Adjust typing speed here
-  }
-}
+    function typeWriterLine1() {
+      if (index1 < typedText1.length) {
+        line1Element.textContent += typedText1.charAt(index1);
+        index1++;
+        setTimeout(typeWriterLine1, 150); // Adjust typing speed here
+      }
+    }
 
-typeWriter(typedText, 0);
+    function typeWriterLine2() {
+      if (index2 < typedText2.length) {
+        line2Element.textContent += typedText2.charAt(index2);
+        index2++;
+        setTimeout(typeWriterLine2, 100); // Adjust typing speed here
+      }
+    }
+
+    typeWriterLine1();
+    setTimeout(typeWriterLine2, typedText1.length * 150 + 500);

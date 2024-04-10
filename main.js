@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var nav = document.querySelector("#menu");
 
   menuToggle.addEventListener("click", function () {
-    if (window.innerWidth <= 800) {
+    if (window.innerWidth <= 850) {
       // Überprüfen Sie die Bildschirmauflösung vor dem Anzeigen oder Ausblenden des Menüs
       if (nav.style.display === "block") {
         nav.style.display = "none";
@@ -56,14 +56,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Zusätzlicher Code für die Bildschirmauflösung größer als 800 Pixel
-  if (window.innerWidth > 800) {
+  // Zusätzlicher Code für die Bildschirmauflösung größer als 850 Pixel
+  if (window.innerWidth > 850) {
     nav.style.display = "flex";
   }
 
   // Event-Listener für die Überprüfung der Bildschirmauflösung bei Größenänderung
   window.addEventListener("resize", function () {
-    if (window.innerWidth > 800) {
+    if (window.innerWidth > 850) {
       nav.style.display = "flex";
     } else {
       nav.style.display = "none";

@@ -6,7 +6,7 @@ footer {
     );
     border-radius: 2rem 2rem 0 0;
     color: #fff;
-    padding: 20px 5rem;
+    padding: 20px 4rem;
     display: flex;
     justify-content: space-between;
   }
@@ -120,7 +120,7 @@ footer {
   
   @media (max-width: 640px) {
     footer {
-      padding: 2rem 5rem 4rem 5rem;
+      padding: 2rem 4rem 4rem 4rem;
       display: flex;
       justify-content: space-between;
     }

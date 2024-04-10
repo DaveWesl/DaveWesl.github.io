@@ -5,7 +5,7 @@
       rgba(86, 147, 155, 0.5) 0%,
       rgb(62, 119, 122, 0.8) 40%
     );
-    padding: 0.5rem 5rem;
+    padding: 0.5rem 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,7 +81,7 @@
     display: none;
   }
   
-  @media (max-width: 800px) {
+  @media (max-width: 850px) {
     #nav {
       display: flex;
       justify-content: space-between;
@@ -106,16 +106,18 @@
       background: linear-gradient(
         180deg,
         rgb(62, 119, 122, 0.8),
-        rgb(51, 83, 87, 0.8) 100%
+        rgb(51, 83, 87, 1) 100%
       );
       border-radius: 0 0 1rem 1rem;
       position: absolute;
-      top: 6rem;
+      top: 5rem;
       right: 0;
       width: 30%;
       padding: 0;
       margin: 0;
       text-align: center;
+      
+      z-index: 9999;
     }
   
     #nav ul li {

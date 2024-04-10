@@ -62,7 +62,6 @@
 
 .button-1 {
   margin-top: 3rem;
-  padding: 1.5rem;
   width: auto;
   background: linear-gradient(
     180deg,
@@ -140,7 +139,6 @@
 }
 
 @media (max-width: 1000px) {
-
   #home {
     padding: 4rem 5rem 9rem 5rem;
   }
@@ -157,19 +155,39 @@
     width: 90%;
   }
 }
-
-@media (max-width: 840px) {
+@media (max-width: 840px) and (min-height: 1000px) {
+  #home {
+    padding: 10rem 2rem 10rem 2rem;
+    display: flex;
+    flex-direction: column;
+  }
 
   .button-1 a {
     font-size: 1.3rem;
   }
 
   .homeText {
-    width: 70%;
+    text-align: center;
+    width: 100%;
+  }
+
+  .home-div-button{
+    align-items: center;
+    justify-content: center;
   }
 
   .home-div-img {
-    width: 30%;
+    margin-top: 2rem;
+    width: 40%;
+    order: 2;
+  }
+
+}
+
+@media (max-width: 840px) {
+
+  #home {
+    padding: 5rem 2rem 10rem 2rem;
   }
 
   .text-line3 {
@@ -222,7 +240,7 @@
 
 @media (max-width: 480px) {
   #home {
-    padding: 4rem 2rem 10rem 2rem;
+    padding: 10rem 2rem 10rem 2rem;
   }
 
   .button-1 a {
@@ -241,10 +259,13 @@
   .text-line4 {
     font-size: 4.5rem;
     line-height: 4rem;
+    text-shadow: 1px 1px 0 #5d878a, -1px -1px 0 #5d878a, 1px -1px 0 #5d878a,
+      -1px 1px 0 #5d878a; /* Randeffekt */
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
   }
 
   .home-div-button {
-    margin-top: 4rem;
+    margin-top: 8rem;
     gap: 3rem;
   }
 

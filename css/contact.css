@@ -15,8 +15,12 @@
   width: 40%;
 }
 
+.contact-left p {
+  width: 70%;
+}
+
 .contact-right {
-  width: 50%;
+  width: 40%;
 }
 
 label {
@@ -49,7 +53,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   cursor: pointer;
   z-index: 4;
@@ -57,9 +61,14 @@ button {
 }
 
 .contact-button {
-  background-color: rgb(93,135,138);
+  width: auto;
+  background: linear-gradient(
+    180deg,
+    rgb(217, 125, 72) 0%,
+    rgb(224, 147, 101) 100%
+  );
+  box-shadow: 0rem 0rem 1rem rgb(217, 125, 72);
   margin-top: 0.5rem;
-  box-shadow: 0rem 0rem 0rem;
 }
 
 button:hover {
@@ -85,7 +94,21 @@ button:hover {
   }
 }
 
+@media (max-width: 900px) {
+
+  button {
+    color: white;
+    font-weight: normal;
+  }
+
+  .contact-left p {
+    width: 90%;
+  }
+
+}
+
 @media (max-width: 700px) {
+
   #contact {
     background-color: rgb(164, 202, 218, 0.1);
     display: flex;
@@ -100,6 +123,10 @@ button:hover {
     text-align: center;
     width: auto;
     margin-bottom: 5%;
+  }
+
+  .contact-left p {
+    width: 100%;
   }
 
   .contact-right {

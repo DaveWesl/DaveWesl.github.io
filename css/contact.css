@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 6rem 6rem 10rem 6rem;
+  padding: 6rem 8rem 10rem 8rem;
 }
 
 #contact h1 {
@@ -67,7 +67,7 @@ button {
     rgb(217, 125, 72) 0%,
     rgb(224, 147, 101) 100%
   );
-  box-shadow: 0rem 0rem 1rem rgb(217, 125, 72);
+  box-shadow: 0rem 0rem 0rem rgb(217, 125, 72);
   margin-top: 0.5rem;
 }
 

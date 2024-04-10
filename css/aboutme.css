@@ -1,7 +1,7 @@
 #about-me {
   display: flex;
   flex-direction: row;
-  padding: 6rem 6rem 10rem 6rem;
+  padding: 7rem 8rem 7rem 8rem;
   gap: 20px;
   align-items: center;
   justify-items: center;

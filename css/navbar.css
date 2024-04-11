@@ -1,9 +1,9 @@
 /* Style the navigation container */
 #nav {
   background: linear-gradient(
-    90deg,
-    rgba(86, 147, 155, 0.5) 0%,
-    rgb(62, 119, 122, 0.8) 20%
+    270deg,
+    rgba(133, 182, 189, 0.8) 0%,
+    rgb(62, 119, 122, 0.9) 50%
   );
   padding: 0.5rem 4rem;
   display: flex;
@@ -69,7 +69,7 @@ a {
 }
 
 .myname {
-  width: 10rem;
+  width: 13rem;
 }
 
 .myname:hover {
@@ -152,7 +152,7 @@ a {
   #nav .menu-icon {
     margin: 1.5rem;
   }
-
+  
   #nav ul {
     top: 7rem;
     width: 35%;

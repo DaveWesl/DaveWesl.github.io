@@ -1,7 +1,7 @@
 footer {
   background: linear-gradient(
     270deg,
-    rgba(133, 182, 189, 0.8) 0%,
+    rgb(62, 119, 122, 0.7) 0%,
     rgb(62, 119, 122, 0.9) 50%
   );
   border-radius: 2rem 2rem 0 0;

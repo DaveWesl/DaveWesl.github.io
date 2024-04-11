@@ -35,19 +35,6 @@ footer {
     color: #62aead;
   }
   
-  a.myname2 {
-    grid-column: span 2;
-    font-size: 2rem;
-    font-weight: 100;
-    font-family: "Wallpoet", sans-serif;
-    padding: 0;
-    width: 5%;
-  }
-  
-  a.myname2:hover {
-    color: #62aead;
-  }
-  
   a.logos {
     width: 5%;
   }
@@ -105,6 +92,11 @@ footer {
   #popup button {
     width: 25%;
     margin-left: 75%;
+    background: linear-gradient(
+    180deg,
+    rgb(231,101,58) 0%,
+    rgb(224, 147, 101) 100%
+  );
   }
   
   #overlay {
@@ -144,10 +136,6 @@ footer {
     #footer-right li {
       margin-bottom: auto;
       padding: 1.3rem 0 0 0;
-    }
-  
-    a.myname2 {
-      font-size: 1.5rem;
     }
   }
   

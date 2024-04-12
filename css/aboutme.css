@@ -26,11 +26,22 @@
 }
 
 #about-me img {
-  max-width: 35%;
+  max-width: 30%;
   height: auto;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-bottom-left-radius: 4rem;
+  background: linear-gradient(
+    270deg,
+    rgb(62, 119, 122, 0.7) 0%,
+    rgb(62, 119, 122, 0.9) 50%
+  );
   justify-self: center;
+}
+
+@media (max-width: 1250px) {
+  #about-me img {
+    max-width: 40%;
+  }
 }
 
 @media (max-width: 850px) {
@@ -52,10 +63,8 @@
 
   #about-me img {
     order: 2;
-    max-width: 70%;
+    max-width: 60%;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     justify-self: center;
   }
 }

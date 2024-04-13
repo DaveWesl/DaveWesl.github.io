@@ -1,7 +1,3 @@
-[submodule "Portfolio"]
-    path = Portfolio
-    url = https://github.com/davewesl/Portfolio.git
-
 [submodule "Dasmoto-site"]
     path = Dasmoto-site
     url = https://github.com/DaveWesl/Dasmoto-site

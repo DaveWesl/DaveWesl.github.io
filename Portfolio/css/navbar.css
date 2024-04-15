@@ -1,0 +1,172 @@
+/* Style the navigation container */
+#nav {
+  background: linear-gradient(
+    270deg,
+    rgb(62, 119, 122, 0.7) 0%,
+    rgb(62, 119, 122, 0.9) 50%
+  );
+  padding: 0.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  border-radius: 0 0 2rem 2rem;
+}
+
+/* Style the menu list */
+
+
+#nav li:not(:last-child) {
+  margin-right: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  list-style: none;
+  padding: 0;
+  text-align: end;
+  gap: 1.3rem;
+  width: 50%;
+}
+
+#menu a {
+  position: relative;
+  padding: 1rem 0;
+  transition: color 0.4s ease;
+  letter-spacing: 1px;
+}
+
+#menu a:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
+#menu a::after {
+  content: "";
+  display: block;
+  border-bottom: 25px solid transparent;
+  position: absolute;
+  bottom: -0.7rem;
+  left: 0;
+  width: 100%;
+  transition: color 0.4s ease;
+}
+
+#menu a:hover::after {
+  border-bottom: 4px solid;
+  color: #62aead;
+}
+
+.myname {
+  width: 12rem;
+}
+
+.myname:hover {
+  cursor: pointer;
+}
+
+#nav .menu-icon {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 0 2rem;
+  }
+
+  #nav .menu-icon {
+    display: block;
+    text-align: end;
+    max-width: 15%;
+    height: auto;
+    font-size: 3rem;
+    cursor: pointer;
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+    color: #fff;
+  }
+
+  #nav ul {
+    display: none;
+    background: linear-gradient(
+      180deg,
+      rgb(62, 119, 122, 0.7),
+      rgb(51, 83, 87, 1) 100%
+    );
+    border-radius: 0 0 1rem 1rem;
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    z-index: 9999;
+  }
+
+  #nav ul li {
+    margin: 0;
+  }
+
+  #nav ul li a {
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  #menu a::after {
+    display: none;
+  }
+
+  #menu a:hover {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  #nav ul li a:hover {
+    background-color: #62aead;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 480px) {
+  #nav .menu-icon {
+    margin: 1.5rem;
+  }
+  
+  #nav ul {
+    top: 7rem;
+    width: 35%;
+  }
+
+  #nav ul li a {
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 310px) {
+  #nav {
+    padding: 0.5rem 1rem;
+  }
+}

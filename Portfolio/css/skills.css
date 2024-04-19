@@ -29,12 +29,17 @@
   
   .my-skills-right {
     margin: 10vw;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
   }
   
   .icon-row p {
     margin: 0px 10px;
     font-size: 1rem;
+    font-weight: 600;
     color: #3b4c4f;
   }
   
@@ -44,15 +49,11 @@
   
   #my-skills .fa-brands,
   .fa-solid {
-    font-size: 55px;
+    font-size: 4.5rem;
     margin: 20px 10px 5px 10px;
   }
   
   @media (max-width: 900px) {
-
-    .my-skills-right {
-      display: flex;
-    }
   
     .icon-row p {
       margin: 0px 10px;
@@ -60,7 +61,7 @@
   
     #my-skills .fa-brands,
     .fa-solid {
-      font-size: 40px;
+      font-size: 3.5rem;
       margin: 20px 10px 5px 10px;
     }
   }

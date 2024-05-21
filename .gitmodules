@@ -31,6 +31,6 @@
     url = https://github.com/DaveWesl/audiophile-ecommerce-website
     
 [submodule "entertainment-web-app"]
-    path = entertainment-web-app
+    path = entertainment-web-app/client
     url = https://github.com/DaveWesl/entertainment-web-app
     

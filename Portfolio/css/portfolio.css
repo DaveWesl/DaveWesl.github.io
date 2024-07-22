@@ -81,7 +81,7 @@
     text-align: center;
   }
   
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
     #portfolio {
       height: auto;
       padding: 2rem;
@@ -103,7 +103,7 @@
     }
   }
   
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     #portfolio {
       display: flex;
       flex-direction: column;

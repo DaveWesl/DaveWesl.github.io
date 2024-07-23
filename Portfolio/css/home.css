@@ -81,7 +81,8 @@
   font-size: 1.1rem;
 }
 
-#text-line1 {
+#text-line1,
+#text-line1-de {
   font-weight: 200;
 }
 

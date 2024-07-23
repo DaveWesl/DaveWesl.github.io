@@ -71,11 +71,11 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-  var reloadLink = document.getElementById('reload-link');
-  reloadLink.addEventListener('click', function(event) {
-      event.preventDefault(); // Prevents the default link behavior
-      location.reload(); // Reloads the page
+document.addEventListener("DOMContentLoaded", function () {
+  var reloadLink = document.getElementById("reload-link");
+  reloadLink.addEventListener("click", function (event) {
+    event.preventDefault(); // Prevents the default link behavior
+    location.reload(); // Reloads the page
   });
 });
 
@@ -116,40 +116,30 @@ function closePopup() {
 }
 
 /*-------------------------------------------------*/
-/*typed name*/
+/*typed name englisch*/
 
 const typedText1 = "Nice to meet you!";
-    const typedText2 = "I'm David Wesle.";
-    const line1Element = document.getElementById("text-line1");
-    const line2Element = document.getElementById("text-line2");
-    let index1 = 0;
-    let index2 = 0;
+const typedText2 = "I'm David Wesle.";
+const line1Element = document.getElementById("text-line1");
+const line2Element = document.getElementById("text-line2");
+let index1 = 0;
+let index2 = 0;
 
-    function typeWriterLine1() {
-      if (index1 < typedText1.length) {
-        line1Element.textContent += typedText1.charAt(index1);
-        index1++;
-        setTimeout(typeWriterLine1, 150); // Adjust typing speed here
-      }
-    }
+function typeWriterLine1() {
+  if (index1 < typedText1.length) {
+    line1Element.textContent += typedText1.charAt(index1);
+    index1++;
+    setTimeout(typeWriterLine1, 150); // Adjust typing speed here
+  }
+}
 
-    function typeWriterLine2() {
-      if (index2 < typedText2.length) {
-        line2Element.textContent += typedText2.charAt(index2);
-        index2++;
-        setTimeout(typeWriterLine2, 100); // Adjust typing speed here
-      }
-    }
+function typeWriterLine2() {
+  if (index2 < typedText2.length) {
+    line2Element.textContent += typedText2.charAt(index2);
+    index2++;
+    setTimeout(typeWriterLine2, 100); // Adjust typing speed here
+  }
+}
 
-    typeWriterLine1();
-    setTimeout(typeWriterLine2, typedText1.length * 150 + 500);
-
-    document.addEventListener('DOMContentLoaded', function() {
-      const pathname = window.location.pathname;
-  
-      if (pathname === "/") {
-          window.location.href = "/index.html";
-      } else if (pathname === "/de") {
-          window.location.href = "/index-de.html";
-      }
-  });
+typeWriterLine1();
+setTimeout(typeWriterLine2, typedText1.length * 150 + 500);

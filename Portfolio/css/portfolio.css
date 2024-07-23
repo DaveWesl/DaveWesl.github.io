@@ -65,7 +65,7 @@
     transition: transform 0.3s ease-in-out;
   }
   
-  .projects:hover img {
+  .projects img:hover {
     transform: scale(1.05); /* Adjust the scale factor for the beat effect */
   }
   
@@ -77,8 +77,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
+    width: 100%;
   }
   
   @media (max-width: 1200px) {

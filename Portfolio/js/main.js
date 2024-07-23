@@ -143,3 +143,13 @@ const typedText1 = "Nice to meet you!";
 
     typeWriterLine1();
     setTimeout(typeWriterLine2, typedText1.length * 150 + 500);
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const pathname = window.location.pathname;
+  
+      if (pathname === "/") {
+          window.location.href = "/index.html";
+      } else if (pathname === "/de") {
+          window.location.href = "/index-de.html";
+      }
+  });
